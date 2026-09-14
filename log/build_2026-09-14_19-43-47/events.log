@@ -1,0 +1,315 @@
+[0.000000] (-) TimerEvent: {}
+[0.000126] (-) JobUnselected: {'identifier': 'turtle_controller'}
+[0.000145] (turtle_interfaces) JobQueued: {'identifier': 'turtle_interfaces', 'dependencies': OrderedDict()}
+[0.000169] (turtle_interfaces) JobStarted: {'identifier': 'turtle_interfaces'}
+[0.007775] (turtle_interfaces) JobProgress: {'identifier': 'turtle_interfaces', 'progress': 'cmake'}
+[0.008914] (turtle_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/george/ros2_ws/src/turtle_interfaces', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/george/ros2_ws/install/turtle_interfaces'], 'cwd': '/home/george/ros2_ws/build/turtle_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/george/roar_ws/src/my_world/models:/home/george/roar_ws/src/my_world/models:'), ('USER', 'george'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}'), ('HOME', '/home/george'), ('OLDPWD', '/home/george/ros2_ws/src/turtle_interfaces'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/george/ros2_ws/install:/home/george/bonus/install:/home/george/roar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'george'), ('NAME', 'LAPTOP-TPV6R8J3'), ('WSL_INTEROP', '/run/WSL/17592_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/George/anaconda3/condabin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Users/George/AppData/Local/MongoDBCompass/mongosh-2.5.7-win32-x64/bin:/mnt/c/Users/George/Downloads/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/George/Downloads/winlibs-x86_64-posix-seh-gcc-16.2.0-mingw-w64ucrt-14.0.0-r1/mingw64/bin:/mnt/c/Users/George/AppData/Local/agy/bin:/mnt/c/Users/George/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/George/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/George/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/George/Downloads/ffmpeg/bin:/mnt/c/intelFPGA/18.1/modelsim_ase/win32aloem:/mnt/c/Program Files/apache-maven-3.9.12/bin:/mnt/c/Users/George/.dotnet/tools:/snap/bin'), ('WT_SESSION', '5fc11d75-6855-47a9-96ee-56ba9456d2de'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/george/ros2_ws/install/turtle_controller:/home/george/roar_ws/install/my_world:/home/george/roar_ws/install/my_robot_description:/home/george/roar_ws/install/aruco_tracking:/home/george/bonus/install/roar_tests:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GALLIUM_DRIVER', 'llvmpipe'), ('PWD', '/home/george/ros2_ws/build/turtle_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages:/home/george/roar_ws/install/aruco_tracking/lib/python3.10/site-packages:/home/george/bonus/install/roar_tests/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('MESA_GLSL_VERSION_OVERRIDE', '330'), ('CMAKE_PREFIX_PATH', '/home/george/roar_ws/install/my_world:/home/george/roar_ws/install/my_robot_description'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.099241] (-) TimerEvent: {}
+[0.204573] (-) TimerEvent: {}
+[0.258929] (turtle_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.306937] (-) TimerEvent: {}
+[0.412250] (-) TimerEvent: {}
+[0.517552] (-) TimerEvent: {}
+[0.622897] (-) TimerEvent: {}
+[0.728105] (-) TimerEvent: {}
+[0.833435] (-) TimerEvent: {}
+[0.935816] (-) TimerEvent: {}
+[0.970283] (turtle_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.039182] (-) TimerEvent: {}
+[1.142866] (-) TimerEvent: {}
+[1.248207] (-) TimerEvent: {}
+[1.353553] (-) TimerEvent: {}
+[1.454759] (-) TimerEvent: {}
+[1.467919] (turtle_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.555345] (-) TimerEvent: {}
+[1.635231] (turtle_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.640877] (turtle_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.642044] (turtle_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.642573] (turtle_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.645632] (turtle_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.655541] (-) TimerEvent: {}
+[1.756328] (-) TimerEvent: {}
+[1.828461] (turtle_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.834445] (turtle_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.834718] (turtle_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.835148] (turtle_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.847827] (turtle_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.856816] (-) TimerEvent: {}
+[1.958687] (-) TimerEvent: {}
+[1.986712] (turtle_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.062403] (-) TimerEvent: {}
+[2.081280] (turtle_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.088684] (turtle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.096931] (turtle_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.165827] (-) TimerEvent: {}
+[2.271232] (-) TimerEvent: {}
+[2.324600] (turtle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.373705] (-) TimerEvent: {}
+[2.479134] (-) TimerEvent: {}
+[2.563472] (turtle_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.580030] (-) TimerEvent: {}
+[2.685037] (-) TimerEvent: {}
+[2.711643] (turtle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.788874] (-) TimerEvent: {}
+[2.894172] (-) TimerEvent: {}
+[2.895789] (turtle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.999201] (-) TimerEvent: {}
+[3.094900] (turtle_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.097303] (turtle_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.099376] (-) TimerEvent: {}
+[3.204637] (-) TimerEvent: {}
+[3.309917] (-) TimerEvent: {}
+[3.415213] (-) TimerEvent: {}
+[3.520574] (-) TimerEvent: {}
+[3.621778] (-) TimerEvent: {}
+[3.677554] (turtle_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.677715] (turtle_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.677755] (turtle_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.677790] (turtle_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.693329] (turtle_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.723318] (-) TimerEvent: {}
+[3.826418] (turtle_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.826549] (-) TimerEvent: {}
+[3.862071] (turtle_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.864501] (turtle_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[3.864573] (turtle_interfaces) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[3.864611] (turtle_interfaces) StderrLine: {'line': b'\n'}
+[3.864644] (turtle_interfaces) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[3.864676] (turtle_interfaces) StderrLine: {'line': b'\n'}
+[3.864707] (turtle_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[3.871577] (turtle_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/george/ros2_ws/build/turtle_interfaces\n'}
+[3.878608] (turtle_interfaces) CommandEnded: {'returncode': 0}
+[3.878904] (turtle_interfaces) JobProgress: {'identifier': 'turtle_interfaces', 'progress': 'build'}
+[3.879939] (turtle_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/george/ros2_ws/build/turtle_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/george/ros2_ws/build/turtle_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/george/roar_ws/src/my_world/models:/home/george/roar_ws/src/my_world/models:'), ('USER', 'george'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}'), ('HOME', '/home/george'), ('OLDPWD', '/home/george/ros2_ws/src/turtle_interfaces'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/george/ros2_ws/install:/home/george/bonus/install:/home/george/roar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'george'), ('NAME', 'LAPTOP-TPV6R8J3'), ('WSL_INTEROP', '/run/WSL/17592_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/George/anaconda3/condabin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Users/George/AppData/Local/MongoDBCompass/mongosh-2.5.7-win32-x64/bin:/mnt/c/Users/George/Downloads/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/George/Downloads/winlibs-x86_64-posix-seh-gcc-16.2.0-mingw-w64ucrt-14.0.0-r1/mingw64/bin:/mnt/c/Users/George/AppData/Local/agy/bin:/mnt/c/Users/George/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/George/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/George/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/George/Downloads/ffmpeg/bin:/mnt/c/intelFPGA/18.1/modelsim_ase/win32aloem:/mnt/c/Program Files/apache-maven-3.9.12/bin:/mnt/c/Users/George/.dotnet/tools:/snap/bin'), ('WT_SESSION', '5fc11d75-6855-47a9-96ee-56ba9456d2de'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/george/ros2_ws/install/turtle_controller:/home/george/roar_ws/install/my_world:/home/george/roar_ws/install/my_robot_description:/home/george/roar_ws/install/aruco_tracking:/home/george/bonus/install/roar_tests:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GALLIUM_DRIVER', 'llvmpipe'), ('PWD', '/home/george/ros2_ws/build/turtle_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages:/home/george/roar_ws/install/aruco_tracking/lib/python3.10/site-packages:/home/george/bonus/install/roar_tests/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('MESA_GLSL_VERSION_OVERRIDE', '330'), ('CMAKE_PREFIX_PATH', '/home/george/roar_ws/install/my_world:/home/george/roar_ws/install/my_robot_description'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[3.912644] (turtle_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.926835] (-) TimerEvent: {}
+[3.928378] (turtle_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[3.928545] (turtle_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.940497] (turtle_interfaces) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_turtle_interfaces\n'}
+[4.027835] (-) TimerEvent: {}
+[4.130691] (-) TimerEvent: {}
+[4.186919] (turtle_interfaces) StdoutLine: {'line': b'[  9%] Built target turtle_interfaces__rs\n'}
+[4.193076] (turtle_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/shape_command__functions.c.o\x1b[0m\n'}
+[4.194744] (turtle_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.195109] (turtle_interfaces) StdoutLine: {'line': b'creating turtle_interfaces.egg-info\n'}
+[4.195530] (turtle_interfaces) StdoutLine: {'line': b'writing turtle_interfaces.egg-info/PKG-INFO\n'}
+[4.195762] (turtle_interfaces) StdoutLine: {'line': b'writing dependency_links to turtle_interfaces.egg-info/dependency_links.txt\n'}
+[4.195960] (turtle_interfaces) StdoutLine: {'line': b'writing top-level names to turtle_interfaces.egg-info/top_level.txt\n'}
+[4.196157] (turtle_interfaces) StdoutLine: {'line': b"writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'\n"}
+[4.197325] (turtle_interfaces) StdoutLine: {'line': b"reading manifest file 'turtle_interfaces.egg-info/SOURCES.txt'\n"}
+[4.197699] (turtle_interfaces) StdoutLine: {'line': b"writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'\n"}
+[4.198164] (turtle_interfaces) StdoutLine: {'line': b'[ 12%] Built target turtle_interfaces__cpp\n'}
+[4.207164] (turtle_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.208932] (turtle_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.209260] (turtle_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.220444] (turtle_interfaces) StdoutLine: {'line': b'[ 21%] Built target ament_cmake_python_build_turtle_interfaces_egg\n'}
+[4.230877] (-) TimerEvent: {}
+[4.274924] (turtle_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libturtle_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.331279] (-) TimerEvent: {}
+[4.402506] (turtle_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/srv/shape_command__type_support.cpp.o\x1b[0m\n'}
+[4.431131] (turtle_interfaces) StdoutLine: {'line': b'[ 28%] Built target turtle_interfaces__rosidl_generator_c\n'}
+[4.431346] (-) TimerEvent: {}
+[4.439728] (turtle_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.440521] (turtle_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.441540] (turtle_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.442353] (turtle_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/shape_command__type_support.cpp.o\x1b[0m\n'}
+[4.456401] (turtle_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/srv/detail/dds_fastrtps/shape_command__type_support.cpp.o\x1b[0m\n'}
+[4.534393] (-) TimerEvent: {}
+[4.639820] (-) TimerEvent: {}
+[4.711404] (turtle_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/srv/shape_command__type_support.cpp.o\x1b[0m\n'}
+[4.740043] (turtle_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.740225] (-) TimerEvent: {}
+[4.747402] (turtle_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.759698] (turtle_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/srv/detail/shape_command__type_support_c.cpp.o\x1b[0m\n'}
+[4.773873] (turtle_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/shape_command__type_support.c.o\x1b[0m\n'}
+[4.812360] (turtle_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libturtle_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.840567] (-) TimerEvent: {}
+[4.862361] (turtle_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.883038] (turtle_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.897407] (turtle_interfaces) StdoutLine: {'line': b'[ 68%] Built target turtle_interfaces__rosidl_typesupport_c\n'}
+[4.897885] (turtle_interfaces) StdoutLine: {'line': b'[ 68%] Built target turtle_interfaces__rosidl_typesupport_cpp\n'}
+[4.936096] (turtle_interfaces) StdoutLine: {'line': b'[ 68%] Built target turtle_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.940887] (-) TimerEvent: {}
+[5.015516] (turtle_interfaces) StdoutLine: {'line': b'[ 68%] Built target turtle_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.035434] (turtle_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.041282] (-) TimerEvent: {}
+[5.048075] (turtle_interfaces) StdoutLine: {'line': b'[ 71%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.144795] (-) TimerEvent: {}
+[5.181501] (turtle_interfaces) StdoutLine: {'line': b'[ 71%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.195083] (turtle_interfaces) StdoutLine: {'line': b'[ 71%] Built target turtle_interfaces\n'}
+[5.208151] (turtle_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.245156] (-) TimerEvent: {}
+[5.349172] (-) TimerEvent: {}
+[5.450180] (turtle_interfaces) StdoutLine: {'line': b'[ 75%] Built target turtle_interfaces__py\n'}
+[5.450350] (-) TimerEvent: {}
+[5.464273] (turtle_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/srv/_shape_command_s.c.o\x1b[0m\n'}
+[5.551619] (-) TimerEvent: {}
+[5.572476] (turtle_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_interfaces/libturtle_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[5.653936] (-) TimerEvent: {}
+[5.694111] (turtle_interfaces) StdoutLine: {'line': b'[ 81%] Built target turtle_interfaces__rosidl_generator_py\n'}
+[5.709900] (turtle_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.710958] (turtle_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.711423] (turtle_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.756190] (-) TimerEvent: {}
+[5.788977] (turtle_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.790473] (turtle_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.794101] (turtle_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.859394] (-) TimerEvent: {}
+[5.886362] (turtle_interfaces) StdoutLine: {'line': b'[100%] Built target turtle_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[5.886531] (turtle_interfaces) StdoutLine: {'line': b'[100%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.931372] (turtle_interfaces) StdoutLine: {'line': b'[100%] Built target turtle_interfaces__rosidl_typesupport_c__pyext\n'}
+[5.939255] (turtle_interfaces) CommandEnded: {'returncode': 0}
+[5.940279] (turtle_interfaces) JobProgress: {'identifier': 'turtle_interfaces', 'progress': 'install'}
+[5.946054] (turtle_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/george/ros2_ws/build/turtle_interfaces'], 'cwd': '/home/george/ros2_ws/build/turtle_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/george/roar_ws/src/my_world/models:/home/george/roar_ws/src/my_world/models:'), ('USER', 'george'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}'), ('HOME', '/home/george'), ('OLDPWD', '/home/george/ros2_ws/src/turtle_interfaces'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/george/ros2_ws/install:/home/george/bonus/install:/home/george/roar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'george'), ('NAME', 'LAPTOP-TPV6R8J3'), ('WSL_INTEROP', '/run/WSL/17592_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/George/anaconda3/condabin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Users/George/AppData/Local/MongoDBCompass/mongosh-2.5.7-win32-x64/bin:/mnt/c/Users/George/Downloads/avr8-gnu-toolchain-3.7.0.1796-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/George/Downloads/winlibs-x86_64-posix-seh-gcc-16.2.0-mingw-w64ucrt-14.0.0-r1/mingw64/bin:/mnt/c/Users/George/AppData/Local/agy/bin:/mnt/c/Users/George/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/George/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/George/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/George/Downloads/ffmpeg/bin:/mnt/c/intelFPGA/18.1/modelsim_ase/win32aloem:/mnt/c/Program Files/apache-maven-3.9.12/bin:/mnt/c/Users/George/.dotnet/tools:/snap/bin'), ('WT_SESSION', '5fc11d75-6855-47a9-96ee-56ba9456d2de'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/george/ros2_ws/install/turtle_controller:/home/george/roar_ws/install/my_world:/home/george/roar_ws/install/my_robot_description:/home/george/roar_ws/install/aruco_tracking:/home/george/bonus/install/roar_tests:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GALLIUM_DRIVER', 'llvmpipe'), ('PWD', '/home/george/ros2_ws/build/turtle_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages:/home/george/roar_ws/install/aruco_tracking/lib/python3.10/site-packages:/home/george/bonus/install/roar_tests/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('MESA_GLSL_VERSION_OVERRIDE', '330'), ('CMAKE_PREFIX_PATH', '/home/george/roar_ws/install/my_world:/home/george/roar_ws/install/my_robot_description'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[5.950955] (turtle_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.951589] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_interfaces\n'}
+[5.951698] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces\n'}
+[5.952147] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv\n'}
+[5.952294] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail\n'}
+[5.952389] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/shape_command__type_support.h\n'}
+[5.952503] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/shape_command__struct.h\n'}
+[5.952608] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/shape_command__functions.c\n'}
+[5.952751] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/shape_command__functions.h\n'}
+[5.952795] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/shape_command.h\n'}
+[5.953230] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg\n'}
+[5.953450] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.953797] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.sh\n'}
+[5.953932] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.dsv\n'}
+[5.954154] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so\n'}
+[5.954399] (turtle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/george/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so" to ""\n'}
+[5.954532] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces\n'}
+[5.954627] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv\n'}
+[5.954732] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail\n'}
+[5.954904] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/shape_command__rosidl_typesupport_fastrtps_c.h\n'}
+[5.954947] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg\n'}
+[5.954980] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.955017] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.955199] (turtle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/george/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.955241] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces\n'}
+[5.955275] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv\n'}
+[5.955373] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail\n'}
+[5.955471] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/shape_command__rosidl_typesupport_introspection_c.h\n'}
+[5.955647] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/shape_command__type_support.c\n'}
+[5.955688] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg\n'}
+[5.955756] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.955911] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.955969] (turtle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/george/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.956004] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so\n'}
+[5.956571] (turtle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/george/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[5.956660] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces\n'}
+[5.956811] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv\n'}
+[5.957050] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail\n'}
+[5.957143] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/shape_command__builder.hpp\n'}
+[5.957280] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/shape_command__struct.hpp\n'}
+[5.957426] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/shape_command__traits.hpp\n'}
+[5.957512] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/shape_command__type_support.hpp\n'}
+[5.957605] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/shape_command.hpp\n'}
+[5.957705] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg\n'}
+[5.957822] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.957987] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces\n'}
+[5.958149] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv\n'}
+[5.958191] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail\n'}
+[5.958224] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/shape_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.958257] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/dds_fastrtps\n'}
+[5.958288] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg\n'}
+[5.958381] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.958464] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.958658] (turtle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/george/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.958751] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces\n'}
+[5.958824] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv\n'}
+[5.958922] (turtle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail\n'}
+[5.959020] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/shape_command__type_support.cpp\n'}
+[5.959126] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/shape_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.959308] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.959350] (turtle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/george/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.959382] (-) TimerEvent: {}
+[5.959475] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.959768] (turtle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/george/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[5.959883] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.sh\n'}
+[5.959997] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.dsv\n'}
+[5.960134] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info\n'}
+[5.961090] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.961293] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.961343] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.961458] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.961509] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces\n'}
+[5.961651] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/libturtle_interfaces__rosidl_generator_py.so\n'}
+[5.961868] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[5.962021] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv\n'}
+[5.962160] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_shape_command_s.c\n'}
+[5.962867] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_shape_command.py\n'}
+[5.962959] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/__init__.py\n'}
+[5.963094] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.963230] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.963458] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.963579] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.963795] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/__init__.py\n'}
+[5.963915] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.990138] (turtle_interfaces) StdoutLine: {'line': b"Listing '/home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces'...\n"}
+[5.990250] (turtle_interfaces) StdoutLine: {'line': b"Compiling '/home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/__init__.py'...\n"}
+[5.990289] (turtle_interfaces) StdoutLine: {'line': b"Listing '/home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv'...\n"}
+[5.990322] (turtle_interfaces) StdoutLine: {'line': b"Compiling '/home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/__init__.py'...\n"}
+[5.990354] (turtle_interfaces) StdoutLine: {'line': b"Compiling '/home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_shape_command.py'...\n"}
+[5.993295] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.993500] (turtle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.993671] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.993888] (turtle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.994083] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.994230] (turtle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.994305] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so\n'}
+[5.994527] (turtle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/george/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so" to ""\n'}
+[5.994760] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/ament_index/resource_index/rust_packages/turtle_interfaces\n'}
+[5.994917] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust\n'}
+[5.995064] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust/build.rs\n'}
+[5.995206] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust/Cargo.toml\n'}
+[5.995345] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src\n'}
+[5.995563] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/lib.rs\n'}
+[5.995763] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/srv\n'}
+[5.995941] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/srv/rmw.rs\n'}
+[5.996175] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/srv.rs\n'}
+[5.996550] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/srv/ShapeCommand.idl\n'}
+[5.996616] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/srv/ShapeCommand.srv\n'}
+[5.996704] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/srv/ShapeCommand_Request.msg\n'}
+[5.996857] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/srv/ShapeCommand_Response.msg\n'}
+[5.997183] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_interfaces\n'}
+[5.997520] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_interfaces\n'}
+[5.997708] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.sh\n'}
+[5.997897] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.dsv\n'}
+[5.998087] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.sh\n'}
+[5.998177] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.dsv\n'}
+[5.998310] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.bash\n'}
+[5.998434] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.sh\n'}
+[5.998544] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.zsh\n'}
+[5.998669] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.dsv\n'}
+[5.998805] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv\n'}
+[5.999053] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/ament_index/resource_index/packages/turtle_interfaces\n'}
+[5.999334] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport.cmake\n'}
+[5.999434] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.999634] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.999843] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.999962] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.000071] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.000182] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[6.000273] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.000389] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cppExport.cmake\n'}
+[6.000524] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.000641] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.000745] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.000842] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.000960] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[6.001058] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.001164] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport.cmake\n'}
+[6.001297] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.001520] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[6.001636] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.001779] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.002327] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.002463] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.002583] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.002699] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.002840] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig.cmake\n'}
+[6.002946] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig-version.cmake\n'}
+[6.003050] (turtle_interfaces) StdoutLine: {'line': b'-- Installing: /home/george/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.xml\n'}
+[6.004973] (turtle_interfaces) CommandEnded: {'returncode': 0}
+[6.019555] (turtle_interfaces) JobEnded: {'identifier': 'turtle_interfaces', 'rc': 0}
+[6.020173] (-) EventReactorShutdown: {}

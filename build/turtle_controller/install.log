@@ -1,9 +1,13 @@
+/home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/stage2_client.py
 /home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/SecondMasterPiece.py
+/home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/stage2_controller.py
 /home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/FirstMasterPiece.py
 /home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/ThirdMasterPiece.py
 /home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/__init__.py
 /home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/controller.py
+/home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/__pycache__/stage2_client.cpython-310.pyc
 /home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/__pycache__/SecondMasterPiece.cpython-310.pyc
+/home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/__pycache__/stage2_controller.cpython-310.pyc
 /home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/__pycache__/FirstMasterPiece.cpython-310.pyc
 /home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/__pycache__/ThirdMasterPiece.cpython-310.pyc
 /home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/__pycache__/__init__.cpython-310.pyc
@@ -21,3 +25,5 @@
 /home/george/ros2_ws/install/turtle_controller/lib/turtle_controller/butterfly
 /home/george/ros2_ws/install/turtle_controller/lib/turtle_controller/controller
 /home/george/ros2_ws/install/turtle_controller/lib/turtle_controller/racecare
+/home/george/ros2_ws/install/turtle_controller/lib/turtle_controller/stage2_client
+/home/george/ros2_ws/install/turtle_controller/lib/turtle_controller/stage2_controller

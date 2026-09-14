@@ -17,3 +17,5 @@ turtle_controller/SecondMasterPiece.py
 turtle_controller/ThirdMasterPiece.py
 turtle_controller/__init__.py
 turtle_controller/controller.py
+turtle_controller/stage2_client.py
+turtle_controller/stage2_controller.py

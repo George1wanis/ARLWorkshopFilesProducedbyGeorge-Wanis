@@ -3,4 +3,6 @@ ILROS = turtle_controller.ThirdMasterPiece:main
 butterfly = turtle_controller.FirstMasterPiece:main
 controller = turtle_controller.controller:main
 racecare = turtle_controller.SecondMasterPiece:main
+stage2_client = turtle_controller.stage2_client:main
+stage2_controller = turtle_controller.stage2_controller:main
 

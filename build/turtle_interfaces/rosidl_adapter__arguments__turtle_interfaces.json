@@ -1,0 +1,6 @@
+{
+  "package_name": "turtle_interfaces",
+  "non_idl_tuples": [
+    "/home/george/ros2_ws/src/turtle_interfaces:srv/ShapeCommand.srv"
+  ]
+}

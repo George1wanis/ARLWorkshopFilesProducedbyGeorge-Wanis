@@ -1,0 +1,32 @@
+[0.788s] Invoking command in '/home/george/ros2_ws/src/turtle_controller': AMENT_PREFIX_PATH=/home/george/ros2_ws/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/george/ros2_ws/install/turtle_interfaces LD_LIBRARY_PATH=/home/george/ros2_ws/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/george/ros2_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages:/home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_controller build --build-base /home/george/ros2_ws/build/turtle_controller/build install --record /home/george/ros2_ws/build/turtle_controller/install.log --single-version-externally-managed install_data
+[0.940s] running egg_info
+[0.941s] writing ../../build/turtle_controller/turtle_controller.egg-info/PKG-INFO
+[0.941s] writing dependency_links to ../../build/turtle_controller/turtle_controller.egg-info/dependency_links.txt
+[0.942s] writing entry points to ../../build/turtle_controller/turtle_controller.egg-info/entry_points.txt
+[0.942s] writing requirements to ../../build/turtle_controller/turtle_controller.egg-info/requires.txt
+[0.942s] writing top-level names to ../../build/turtle_controller/turtle_controller.egg-info/top_level.txt
+[0.944s] reading manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.944s] writing manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.944s] running build
+[0.944s] running build_py
+[0.945s] copying turtle_controller/stage2_client.py -> /home/george/ros2_ws/build/turtle_controller/build/lib/turtle_controller
+[0.945s] copying turtle_controller/stage2_controller.py -> /home/george/ros2_ws/build/turtle_controller/build/lib/turtle_controller
+[0.946s] running install
+[0.946s] running install_lib
+[0.946s] copying /home/george/ros2_ws/build/turtle_controller/build/lib/turtle_controller/stage2_client.py -> /home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+[0.947s] copying /home/george/ros2_ws/build/turtle_controller/build/lib/turtle_controller/stage2_controller.py -> /home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+[0.947s] byte-compiling /home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/stage2_client.py to stage2_client.cpython-310.pyc
+[0.948s] byte-compiling /home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/stage2_controller.py to stage2_controller.cpython-310.pyc
+[0.951s] running install_data
+[0.951s] running install_egg_info
+[0.952s] removing '/home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.953s] Copying ../../build/turtle_controller/turtle_controller.egg-info to /home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller-0.0.0-py3.10.egg-info
+[0.954s] running install_scripts
+[0.967s] Installing ILROS script to /home/george/ros2_ws/install/turtle_controller/lib/turtle_controller
+[0.968s] Installing butterfly script to /home/george/ros2_ws/install/turtle_controller/lib/turtle_controller
+[0.968s] Installing controller script to /home/george/ros2_ws/install/turtle_controller/lib/turtle_controller
+[0.968s] Installing racecare script to /home/george/ros2_ws/install/turtle_controller/lib/turtle_controller
+[0.968s] Installing stage2_client script to /home/george/ros2_ws/install/turtle_controller/lib/turtle_controller
+[0.968s] Installing stage2_controller script to /home/george/ros2_ws/install/turtle_controller/lib/turtle_controller
+[0.968s] writing list of installed files to '/home/george/ros2_ws/build/turtle_controller/install.log'
+[0.983s] Invoked command in '/home/george/ros2_ws/src/turtle_controller' returned '0': AMENT_PREFIX_PATH=/home/george/ros2_ws/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/george/ros2_ws/install/turtle_interfaces LD_LIBRARY_PATH=/home/george/ros2_ws/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/george/ros2_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/george/ros2_ws/install/turtle_controller/lib/python3.10/site-packages:/home/george/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_controller build --build-base /home/george/ros2_ws/build/turtle_controller/build install --record /home/george/ros2_ws/build/turtle_controller/install.log --single-version-externally-managed install_data

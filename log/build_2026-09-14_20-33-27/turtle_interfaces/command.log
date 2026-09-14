@@ -1,0 +1,4 @@
+Invoking command in '/home/george/ros2_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/george/ros2_ws/build/turtle_interfaces -- -j16 -l16
+Invoked command in '/home/george/ros2_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/george/ros2_ws/build/turtle_interfaces -- -j16 -l16
+Invoking command in '/home/george/ros2_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/george/ros2_ws/build/turtle_interfaces
+Invoked command in '/home/george/ros2_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/george/ros2_ws/build/turtle_interfaces

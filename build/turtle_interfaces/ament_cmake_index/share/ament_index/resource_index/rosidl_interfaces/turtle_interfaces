@@ -1,0 +1,4 @@
+srv/ShapeCommand.idl
+srv/ShapeCommand.srv
+srv/ShapeCommand_Request.msg
+srv/ShapeCommand_Response.msg

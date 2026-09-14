@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "turtle_interfaces__rs",
+		"source" : "/home/george/ros2_ws/build/turtle_interfaces/turtle_interfaces__rs"
+	}
+}
