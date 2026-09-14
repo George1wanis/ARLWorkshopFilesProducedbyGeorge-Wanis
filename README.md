@@ -155,10 +155,7 @@ And if you look at your turtle now, you will see it moving as you commanded usin
     ros2 run turtle_controller stage2_controller
 
   #### Terminal 3: Send Commands
-
-  You can send commands in any of three ways:
-
-  ##### Option A: Using the Interactive Client
+  ##### Using the Interactive Client
     source ~/ros2_ws/install/setup.bash
     ros2 run turtle_controller stage2_client
 
@@ -169,23 +166,22 @@ And if you look at your turtle now, you will see it moving as you commanded usin
     Enter command > resume
     Enter command > reset
 
-  ##### Option B: Using the Client as a CLI Command
+      #### 1. Stage2Controller file://wsl.localhost/Ubuntu-22.04/home/george/ros2_ws/src/turtle_controller/turtle_controller/stage2_controller.py
 
-    ros2 run turtle_controller stage2_client butterfly
-    ros2 run turtle_controller stage2_client pause
-    ros2 run turtle_controller stage2_client resume
-    ros2 run turtle_controller stage2_client reset
+  ### Implementation Details
+  #### 1. Stage2Controller.py
+  A service server node hosting /shape_command (turtle_interfaces/srv/ShapeCommand):
+  • Shape Execution:
+      • butterfly: Integrates the parametric adaptive butterfly curve from Stage 1
+      ...
+  • Pause & Resume:
+      • pause: Freezes turtle motion (publishes zero velocity) while preserving trajectory progress.
+      • resume (or start): Continues drawing the paused shape from where it stopped.
+  • Reset:
+      • reset: Stops velocity, calls /turtle1/teleport_absolute with (5.544445, 5.544445, 0.0) to place the turtle back in the middle, and clears the
+      canvas via /clear.
 
-  ##### Option C: Using standard ros2 service call
 
-    # Start butterfly:
-    ros2 service call /shape_command turtle_interfaces/srv/ShapeCommand "{command: 'butterfly'}"
-
-    # Pause:
-    ros2 service call /shape_command turtle_interfaces/srv/ShapeCommand "{command: 'pause'}"
-
-    # Resume:
-    ros2 service call /shape_command turtle_interfaces/srv/ShapeCommand "{command: 'resume'}"
-
-    # Reset to middle:
-    ros2 service call /shape_command turtle_interfaces/srv/ShapeCommand "{command: 'reset'}"
+  #### 2. Stage2Client.py
+  A client node supporting both one-shot CLI usage and interactive prompting:
+  • Registered as console script stage2_client in setup.py
