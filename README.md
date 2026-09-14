@@ -1,7 +1,8 @@
-This is George Wanis’ 1st Assignment, I have walked through the official ros2 docs which you can view it through the following link:
-Using turtlesim, ros2, and rqt — ROS 2 Documentation: Kilted documentation
+This is George Wanis’ 1st Assignment, I have walked through the official ros2 docs which you can view it through the following link:[
+https://docs.ros.org/en/kilted/Tutorials/Beginner-CLI-Tools/Introducing-Turtlesim/Introducing-Turtlesim.html
+
 I then went to view the python libraries I’ll need to create scripts similar to what Mostafa did at the first session, you can look at the same docs I previewed here, just click on the following links:
-1.	rclpy provides the canonical Python API for interacting with ROS
+rclpy provides the canonical Python API for interacting with ROS
 it is built on the common C-API provided by rcl
 
 https://github.com/ros2/rcl
