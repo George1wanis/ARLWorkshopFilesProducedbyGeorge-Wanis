@@ -1,0 +1,4 @@
+[console_scripts]
+butterfly = turtle_controller.FirstMasterPiece:main
+controller = turtle_controller.controller:main
+
