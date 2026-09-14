@@ -137,4 +137,5 @@ george@LAPTOP-TPV6R8J3:~/ros2_ws$ ros2 service call /turtle1/teleport_relative t
     requester: making request: turtlesim.srv.TeleportRelative_Request(linear=1.0, angular=1.0)
     response:
     turtlesim.srv.TeleportRelative_Response()
-
+    
+And if you look at your turtle now, you will see it moving as you commanded using this /turtle1/teleport_relative service!
