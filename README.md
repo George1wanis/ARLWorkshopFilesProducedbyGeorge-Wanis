@@ -139,3 +139,59 @@ george@LAPTOP-TPV6R8J3:~/ros2_ws$ ros2 service call /turtle1/teleport_relative t
     turtlesim.srv.TeleportRelative_Response()
     
 And if you look at your turtle now, you will see it moving as you commanded using this /turtle1/teleport_relative service!
+
+
+
+
+  ### How to Run and Test
+
+  Open three separate WSL terminals in ~/ros2_ws:
+
+  #### Terminal 1: Launch Turtlesim
+
+    source /opt/ros/humble/setup.bash
+    ros2 run turtlesim turtlesim_node
+
+  #### Terminal 2: Run the Stage 2 Controller Node
+
+    source /opt/ros/humble/setup.bash
+    source ~/ros2_ws/install/setup.bash
+    ros2 run turtle_controller stage2_controller
+
+  #### Terminal 3: Send Commands
+
+  You can send commands in any of three ways:
+
+  ##### Option A: Using the Interactive Client
+
+    source /opt/ros/humble/setup.bash
+    source ~/ros2_ws/install/setup.bash
+    ros2 run turtle_controller stage2_client
+
+  Then type:
+
+    Enter command > butterfly
+    Enter command > pause
+    Enter command > resume
+    Enter command > reset
+
+  ##### Option B: Using the Client as a CLI Command
+
+    ros2 run turtle_controller stage2_client butterfly
+    ros2 run turtle_controller stage2_client pause
+    ros2 run turtle_controller stage2_client resume
+    ros2 run turtle_controller stage2_client reset
+
+  ##### Option C: Using standard ros2 service call
+
+    # Start butterfly:
+    ros2 service call /shape_command turtle_interfaces/srv/ShapeCommand "{command: 'butterfly'}"
+
+    # Pause:
+    ros2 service call /shape_command turtle_interfaces/srv/ShapeCommand "{command: 'pause'}"
+
+    # Resume:
+    ros2 service call /shape_command turtle_interfaces/srv/ShapeCommand "{command: 'resume'}"
+
+    # Reset to middle:
+    ros2 service call /shape_command turtle_interfaces/srv/ShapeCommand "{command: 'reset'}"
