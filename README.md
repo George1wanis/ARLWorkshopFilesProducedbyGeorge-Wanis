@@ -1,4 +1,4 @@
-This is George Wanis’ 1st Assignment, I have walked through the official ros2 docs which you can view it through the following link:[
+This is George Wanis’ 1st Assignment, I have walked through the official ros2 docs which you can view it through the following link:
 https://docs.ros.org/en/kilted/Tutorials/Beginner-CLI-Tools/Introducing-Turtlesim/Introducing-Turtlesim.html
 
 I then went to view the python libraries I’ll need to create scripts similar to what Mostafa did at the first session, you can look at the same docs I previewed here, just click on the following links:
