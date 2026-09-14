@@ -13,5 +13,7 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 turtle_controller/FirstMasterPiece.py
+turtle_controller/SecondMasterPiece.py
+turtle_controller/ThirdMasterPiece.py
 turtle_controller/__init__.py
 turtle_controller/controller.py

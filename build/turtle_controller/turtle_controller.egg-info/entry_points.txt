@@ -1,4 +1,6 @@
 [console_scripts]
+ILROS = turtle_controller.ThirdMasterPiece:main
 butterfly = turtle_controller.FirstMasterPiece:main
 controller = turtle_controller.controller:main
+racecare = turtle_controller.SecondMasterPiece:main
 

@@ -23,6 +23,6 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': ['controller = turtle_controller.controller:main', 'butterfly = turtle_controller.FirstMasterPiece:main'],
+        'console_scripts': ['controller = turtle_controller.controller:main', 'butterfly = turtle_controller.FirstMasterPiece:main', 'racecare = turtle_controller.SecondMasterPiece:main', 'ILROS = turtle_controller.ThirdMasterPiece:main'],
     },
 )
