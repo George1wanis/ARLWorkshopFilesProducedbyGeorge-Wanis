@@ -81,6 +81,107 @@ Now something for the sake of showing ROS that I'm gratefull haha (:
 For Part 2 of my mission, I went to watch this video explaining services:
 https://youtu.be/FSqm0fDfxrk
 
+For Part 2, I'm gonna document the commands I use:
+george@LAPTOP-TPV6R8J3:~/ros2_ws$ ros2 service list
+
+    /cinematic_ros_art/describe_parameters
+    /cinematic_ros_art/get_parameter_types
+    /cinematic_ros_art/get_parameters
+    /cinematic_ros_art/list_parameters
+    /cinematic_ros_art/set_parameters
+    /cinematic_ros_art/set_parameters_atomically
+    /turtle1/set_pen
+
+after you do:
+
+george@LAPTOP-TPV6R8J3:~$ ros2 run turtlesim turtlesim_node
+
+    [INFO] [1789400093.134775409] [turtlesim]: Starting turtlesim with node name /turtlesim
+    [INFO] [1789400093.143768914] [turtlesim]: Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]
+
+you get:
+
+george@LAPTOP-TPV6R8J3:~/ros2_ws$ ros2 service list
+
+    /cinematic_ros_art/describe_parameters
+    /cinematic_ros_art/get_parameter_types
+    /cinematic_ros_art/get_parameters
+    /cinematic_ros_art/list_parameters
+    /cinematic_ros_art/set_parameters
+    /cinematic_ros_art/set_parameters_atomically
+    /clear
+    /kill
+    /reset
+    /spawn
+    /turtle1/set_pen
+    /turtle1/teleport_absolute
+    /turtle1/teleport_relative <=============================== This is the one Mostafa has mentioned
+    /turtlesim/describe_parameters
+    /turtlesim/get_parameter_types
+    /turtlesim/get_parameters
+    /turtlesim/list_parameters
+    /turtlesim/set_parameters
+    /turtlesim/set_parameters_atomically
+
+george@LAPTOP-TPV6R8J3:~/ros2_ws$ ros2 service  type /turtle1/teleport_relative
+
+    turtlesim/srv/TeleportRelative <========== We wanna see what is inside!
+
+george@LAPTOP-TPV6R8J3:~/ros2_ws$ ros2 interface show turtlesim/srv/TeleportRelative
+
+    float32 linear
+    float32 angular
+    ---
+george@LAPTOP-TPV6R8J3:~/ros2_ws$ ros2 service call /turtle1/teleport_relative turtlesim/srv/TeleportRelative "{linear: 1, angular: 1}"
+    
+    requester: making request: turtlesim.srv.TeleportRelative_Request(linear=1.0, angular=1.0)
+    response:
+    turtlesim.srv.TeleportRelative_Response()
+    
+And if you look at your turtle now, you will see it moving as you commanded using this /turtle1/teleport_relative service!
 
 
 
+
+  ### How to Run and Test
+
+  Open three separate WSL terminals in ~/ros2_ws:
+
+  #### Terminal 1: Launch Turtlesim
+    ros2 run turtlesim turtlesim_node
+
+  #### Terminal 2: Run the Stage 2 Controller Node
+    source ~/ros2_ws/install/setup.bash
+    ros2 run turtle_controller stage2_controller
+
+  #### Terminal 3: Send Commands
+  ##### Using the Interactive Client
+    source ~/ros2_ws/install/setup.bash
+    ros2 run turtle_controller stage2_client
+
+  Then type:
+
+    Enter command > butterfly
+    Enter command > pause
+    Enter command > resume
+    Enter command > reset
+
+      #### 1. Stage2Controller file://wsl.localhost/Ubuntu-22.04/home/george/ros2_ws/src/turtle_controller/turtle_controller/stage2_controller.py
+
+  ### Implementation Details
+  #### 1. Stage2Controller.py
+  A service server node hosting /shape_command (turtle_interfaces/srv/ShapeCommand):
+  • Shape Execution:
+      • butterfly: Integrates the parametric adaptive butterfly curve from Stage 1
+      ...
+  • Pause & Resume:
+      • pause: Freezes turtle motion (publishes zero velocity) while preserving trajectory progress.
+      • resume (or start): Continues drawing the paused shape from where it stopped.
+  • Reset:
+      • reset: Stops velocity, calls /turtle1/teleport_absolute with (5.544445, 5.544445, 0.0) to place the turtle back in the middle, and clears the
+      canvas via /clear.
+
+
+  #### 2. Stage2Client.py
+  A client node supporting both one-shot CLI usage and interactive prompting:
+  • Registered as console script stage2_client in setup.py
