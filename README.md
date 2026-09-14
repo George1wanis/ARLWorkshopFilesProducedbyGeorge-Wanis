@@ -73,5 +73,9 @@ Because we’re joining the racing team I thought of drawing a racing car that r
 
 <img width="634" height="659" alt="image" src="https://github.com/user-attachments/assets/e1b70815-292e-4ba8-9800-ab46a6031457" />
 
+For Part 2 of my mission, I went to see this video explaining services:
+https://youtu.be/FSqm0fDfxrk
+
+
 
 
