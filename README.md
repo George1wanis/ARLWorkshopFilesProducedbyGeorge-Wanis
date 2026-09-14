@@ -148,13 +148,9 @@ And if you look at your turtle now, you will see it moving as you commanded usin
   Open three separate WSL terminals in ~/ros2_ws:
 
   #### Terminal 1: Launch Turtlesim
-
-    source /opt/ros/humble/setup.bash
     ros2 run turtlesim turtlesim_node
 
   #### Terminal 2: Run the Stage 2 Controller Node
-
-    source /opt/ros/humble/setup.bash
     source ~/ros2_ws/install/setup.bash
     ros2 run turtle_controller stage2_controller
 
@@ -163,8 +159,6 @@ And if you look at your turtle now, you will see it moving as you commanded usin
   You can send commands in any of three ways:
 
   ##### Option A: Using the Interactive Client
-
-    source /opt/ros/humble/setup.bash
     source ~/ros2_ws/install/setup.bash
     ros2 run turtle_controller stage2_client
 
