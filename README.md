@@ -1,3 +1,5 @@
+YouTube Video Link: https://youtu.be/ffLDAFJHAfk
+
 This is George Wanis’ 1st Assignment, I have walked through the official ros2 docs which you can view it through the following link:
 https://docs.ros.org/en/kilted/Tutorials/Beginner-CLI-Tools/Introducing-Turtlesim/Introducing-Turtlesim.html
 
