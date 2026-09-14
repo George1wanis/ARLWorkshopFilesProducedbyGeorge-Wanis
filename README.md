@@ -81,6 +81,60 @@ Now something for the sake of showing ROS that I'm gratefull haha (:
 For Part 2 of my mission, I went to watch this video explaining services:
 https://youtu.be/FSqm0fDfxrk
 
+For Part 2, I'm gonna document the commands I use:
+george@LAPTOP-TPV6R8J3:~/ros2_ws$ ros2 service list
 
+    /cinematic_ros_art/describe_parameters
+    /cinematic_ros_art/get_parameter_types
+    /cinematic_ros_art/get_parameters
+    /cinematic_ros_art/list_parameters
+    /cinematic_ros_art/set_parameters
+    /cinematic_ros_art/set_parameters_atomically
+    /turtle1/set_pen
 
+after you do:
+
+george@LAPTOP-TPV6R8J3:~$ ros2 run turtlesim turtlesim_node
+
+    [INFO] [1789400093.134775409] [turtlesim]: Starting turtlesim with node name /turtlesim
+    [INFO] [1789400093.143768914] [turtlesim]: Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]
+
+you get:
+
+george@LAPTOP-TPV6R8J3:~/ros2_ws$ ros2 service list
+
+    /cinematic_ros_art/describe_parameters
+    /cinematic_ros_art/get_parameter_types
+    /cinematic_ros_art/get_parameters
+    /cinematic_ros_art/list_parameters
+    /cinematic_ros_art/set_parameters
+    /cinematic_ros_art/set_parameters_atomically
+    /clear
+    /kill
+    /reset
+    /spawn
+    /turtle1/set_pen
+    /turtle1/teleport_absolute
+    /turtle1/teleport_relative <=============================== This is the one Mostafa has mentioned
+    /turtlesim/describe_parameters
+    /turtlesim/get_parameter_types
+    /turtlesim/get_parameters
+    /turtlesim/list_parameters
+    /turtlesim/set_parameters
+    /turtlesim/set_parameters_atomically
+
+george@LAPTOP-TPV6R8J3:~/ros2_ws$ ros2 service  type /turtle1/teleport_relative
+
+    turtlesim/srv/TeleportRelative <========== We wanna see what is inside!
+
+george@LAPTOP-TPV6R8J3:~/ros2_ws$ ros2 interface show turtlesim/srv/TeleportRelative
+
+    float32 linear
+    float32 angular
+    ---
+george@LAPTOP-TPV6R8J3:~/ros2_ws$ ros2 service call /turtle1/teleport_relative turtlesim/srv/TeleportRelative "{linear: 1, angular: 1}"
+    
+    requester: making request: turtlesim.srv.TeleportRelative_Request(linear=1.0, angular=1.0)
+    response:
+    turtlesim.srv.TeleportRelative_Response()
 
